@@ -5,6 +5,8 @@ import HomePage from './components/HomePage';
 import AllTopicsPage from './components/AllTopicsPage';
 import AppNavigation from './components/AppNavigation';
 import AddTopicPage from './components/AddTopicPage';
+import AddUserPage from './components/AddUserPage';
+
 import TopicPage from './components/TopicPage';
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
           <Route path="/topics" element={ <AllTopicsPage/> } />
           <Route path="/topics/add" element={ <AddTopicPage/> } />
           <Route path="/topics/:topicId" element={ <TopicPage/> } />
+          <Route path="/users/add" element={ <AddUserPage/> } />
         </Routes>
       </Container>
     </div>

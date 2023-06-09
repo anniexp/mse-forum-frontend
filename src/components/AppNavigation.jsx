@@ -16,6 +16,8 @@ export default function AppNavigation() {
           
             <Button color="inherit" component={Link} to="/" >Home</Button>
             <Button color="inherit" component={Link} to="/topics" >Topics</Button>
+            <Button color="inherit" component={Link} to="/users/add" >Add User</Button>
+
           </Typography>
         </Toolbar>
       </AppBar>
